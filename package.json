@@ -1,1 +1,22 @@
-{"name":"agent-sla-scorer","version":"0.1.0","description":"SLA scoring with error-budget accounting.","author":"wwb-bill","license":"MIT","type":"module","main":"dist/index.js","scripts":{"build":"tsc","test":"vitest run"},"engines":{"node":">=18"},"devDependencies":{"@types/node":"^22.0.0","tsx":"^4.19.0","typescript":"^5.6.0","vitest":"^2.1.0"}}
+{
+ "name": "agent-sla-scorer",
+ "version": "0.1.1",
+ "description": "SLA scoring with error-budget accounting for AI agent fleets.",
+ "author": "wwb-bill",
+ "license": "MIT",
+ "type": "module",
+ "main": "dist/index.js",
+ "scripts": {
+  "build": "tsc",
+  "test": "vitest run"
+ },
+ "engines": {
+  "node": ">=18"
+ },
+ "devDependencies": {
+  "@types/node": "^22.0.0",
+  "tsx": "^4.19.0",
+  "typescript": "^5.6.0",
+  "vitest": "^2.1.0"
+ }
+}
